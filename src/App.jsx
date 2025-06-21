@@ -1,6 +1,5 @@
 import { Routes, Route, NavLink } from 'react-router-dom';
 
-// Import your page components
 import ShowCreators from './pages/ShowCreators';
 import ViewCreator from './pages/ViewCreator';
 import EditCreator from './pages/EditCreator';

@@ -1,4 +1,3 @@
-/* Root container */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -12,7 +11,6 @@ a {
   color: #90caf9; 
   text-decoration: none;
 }
-
 
 .creator-card {
   display: flex;
@@ -45,7 +43,6 @@ a {
   width: 100px;
   text-align: center;
 }
-
 
 .creator-image {
   width: 120px;
@@ -105,7 +102,6 @@ a {
   background-color: #0d47a1;
 }
 
-/* Loading text */
 .loading {
   color: #aaa;
   font-size: 1.2rem;
@@ -113,7 +109,6 @@ a {
   margin-top: 3rem;
 }
 
-/* Main container */
 .creator-view-card {
   max-width: 700px;
   margin: 2rem auto;
@@ -128,7 +123,6 @@ a {
   flex-wrap: wrap;
 }
 
-/* Creator Image */
 .creator-view-image {
   width: 250px;
   height: 250px;
@@ -141,23 +135,20 @@ a {
   margin-bottom: 20px;
 }
 
-/* Info section */
 .creator-view-info {
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
-/* Name */
 .creator-view-name {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 2.5rem;
-  color: #81d4fa; /* bright accent */
+  color: #81d4fa;
   text-shadow: 0 0 5px #81d4fa;
 }
 
-/* Description */
 .creator-view-description {
   font-size: 1.1rem;
   line-height: 1.5;
@@ -165,7 +156,6 @@ a {
   color: #ccc;
 }
 
-/* Channel Link */
 .creator-view-link {
   font-weight: bold;
   color: #bedcf5;
@@ -186,7 +176,6 @@ a {
   box-shadow: 0 4px 12px rgba(13, 71, 161, 0.8);
 }
 
-/* Back button */
 .back-button {
   text-decoration: none;
   color: #bbb;
@@ -204,7 +193,6 @@ a {
   box-shadow: 0 0 8px #81d4fa;
 }
 
-/* Container */
 .app-container {
   max-width: 1200px;
   margin: .5rem auto 4rem;
@@ -219,13 +207,11 @@ a {
   flex-direction: column;
 }
 
-/* Header */
 header {
   margin-bottom: 2rem;
   text-align: center;
 }
 
-/* Title */
 .app-title {
   font-size: 3rem;
   margin-bottom: 0.5rem;
@@ -234,7 +220,6 @@ header {
   user-select: none;
 }
 
-/* Navigation */
 .app-nav {
   display: flex;
   justify-content: center;
@@ -266,12 +251,10 @@ header {
   font-weight: 700;
 }
 
-/* Main content */
 main {
   flex-grow: 1;
 }
 
-/* Responsive */
 @media (max-width: 720px) {
   .creator-view-card {
     flex-direction: column;
